@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KP Consultancy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #f1f1f1;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+    }
+    #home {
+      background-color: #e6f2ff;
+    }
+    #about {
+      background-color: #f9f9f9;
+    }
+    #contact {
+      background-color: #e6ffe6;
+    }
+    form {
+      max-width: 400px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    label, input, textarea {
+      margin-bottom: 10px;
+    }
+    input, textarea {
+      padding: 10px;
+      font-size: 1rem;
+    }
+    button {
+      padding: 10px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>KP Consulting Services</h1>
+    <p>Your Trusted Partner in Strategy, Technology, and Transformation</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+	<a href="#services">Services</a>
+  </nav>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>Empowering businesses with expert consulting solutions tailored to accelerate growth, streamline operations, and achieve sustainable success.</p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>At KP Consulting, we bring together a network of industry specialists, technology consultants, and strategic advisors to deliver actionable insights and measurable results. Whether you're a startup or an enterprise, our consulting platform connects you with the right experts to drive change and solve your most pressing business challenges</p>
+  </section>
+  
+  
+  <section id="services">
+    <h2>Services</h2>
+	<ul>
+		<li>Business Strategy Consulting</li>
+		<li>Digital Transformation & IT Solutions</li>
+		<li>Cloud & Infrastructure Advisory</li>
+		<li>Project Management & Agile Coaching</li>
+		<li>Data Analytics & AI Implementation</li>
+		<li>HR, Compliance & Operations Guidance</li>
+	</ul>
+     </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+    <p id="formStatus" style="text-align: center; color: green;"></p>
+  </section>
+
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      
+      // Simulate sending form
+      document.getElementById("formStatus").innerText = "Thank you! Your message has been received.";
+      
+      // Optionally clear the form
+      document.getElementById("contactForm").reset();
+    });
+  </script>
+
+</body>
+</html>
