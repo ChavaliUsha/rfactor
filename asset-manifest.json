@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rfactor/static/css/main.d62d352d.css",
-    "main.js": "/rfactor/static/js/main.6afba208.js",
-    "static/js/453.9e6808f2.chunk.js": "/rfactor/static/js/453.9e6808f2.chunk.js",
-    "index.html": "/rfactor/index.html",
-    "main.d62d352d.css.map": "/rfactor/static/css/main.d62d352d.css.map",
-    "main.6afba208.js.map": "/rfactor/static/js/main.6afba208.js.map",
-    "453.9e6808f2.chunk.js.map": "/rfactor/static/js/453.9e6808f2.chunk.js.map"
+    "main.css": "./static/css/main.d62d352d.css",
+    "main.js": "./static/js/main.5c992581.js",
+    "static/js/453.9e6808f2.chunk.js": "./static/js/453.9e6808f2.chunk.js",
+    "index.html": "./index.html",
+    "main.d62d352d.css.map": "./static/css/main.d62d352d.css.map",
+    "main.5c992581.js.map": "./static/js/main.5c992581.js.map",
+    "453.9e6808f2.chunk.js.map": "./static/js/453.9e6808f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d62d352d.css",
-    "static/js/main.6afba208.js"
+    "static/js/main.5c992581.js"
   ]
 }
